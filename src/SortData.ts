@@ -1,8 +1,8 @@
-// interface SortingProps {
-//   length: number;
-//   compare(indexLeft: number, indexRight: number): boolean;
-//   swap(indexLeft: number, indexRight: number): void;
-// }
+interface SortingProps {
+  length: number;
+  compare(indexLeft: number, indexRight: number): boolean;
+  swap(indexLeft: number, indexRight: number): void;
+}
 
 export abstract class SortData {
   abstract compare(indexLeft: number, indexRight: number): boolean;

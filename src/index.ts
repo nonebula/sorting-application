@@ -13,9 +13,9 @@ const years = dateArray.map((date) => {
   return date.getFullYear();
 });
 
-// const numbersData = new Numbers(years);
-// numbersData.sort();
-// console.log(numbersData.number);
+const numbersData = new Numbers(years);
+numbersData.sort();
+console.log(numbersData.number);
 
 const stringsData = new Strings("vdGryF");
 stringsData.sort();

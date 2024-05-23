@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+const Numbers_1 = require("./Numbers");
 const Strings_1 = require("./Strings");
 const dateArray = [
     new Date(2200, 9, 24),
@@ -10,9 +11,9 @@ const dateArray = [
 const years = dateArray.map((date) => {
     return date.getFullYear();
 });
-// const numbersData = new Numbers(years);
-// numbersData.sort();
-// console.log(numbersData.number);
+const numbersData = new Numbers_1.Numbers(years);
+numbersData.sort();
+console.log(numbersData.number);
 const stringsData = new Strings_1.Strings("vdGryF");
 stringsData.sort();
 console.log(stringsData.str);

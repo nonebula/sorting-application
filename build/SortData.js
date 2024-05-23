@@ -1,9 +1,4 @@
 "use strict";
-// interface SortingProps {
-//   length: number;
-//   compare(indexLeft: number, indexRight: number): boolean;
-//   swap(indexLeft: number, indexRight: number): void;
-// }
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SortData = void 0;
 class SortData {
